@@ -1,7 +1,3 @@
-
-%% Install mex
-mex projectSortC.c
-
 %% generate the dataset (channels are independent)
 
 m = 5; % number of nodes
