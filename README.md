@@ -18,3 +18,5 @@ Installation:
 Run "exampleS.m" to estimate a sparse graphical model using function indentS.m
 Run "exampleSL.m" to estimate a latent-variable graphical model using function indentSL.m
 
+Disclaimer:
+All contents are written by Mattia Zorzi starting from the code available in https://github.com/CyclotronResearchCentre/SparseLowRankIdentification except 'projectSortC.c', which is written by Ewout Van Den Berg, Mark Schmitd, Michael P. Friedlander, and Kevin Murphy, 2008.
