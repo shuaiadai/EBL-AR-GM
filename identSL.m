@@ -78,6 +78,7 @@ Q(:,:,1)=symm(Q(:,:,1));
 
 
 %% optimize
+mex projectSortC.c
 k=1;
 d=1;
 max_iter2=0;
