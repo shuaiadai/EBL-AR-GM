@@ -1,7 +1,3 @@
-
-%% Install mex
-mex projectSortC.c
-
 %% generate the dataset (manifest variables are conditionally independent, #latent variables=2)
 
 m = 5; % number of nodes
