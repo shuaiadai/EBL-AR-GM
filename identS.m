@@ -67,7 +67,6 @@ gamma(:,:,1) = symm(gamma(:,:,1));
 thr = 10^-4; 
 
 %% optimize
-mex projectSortC.c
 k=1;
 d=1;
 while d>=tol
