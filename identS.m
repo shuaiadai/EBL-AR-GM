@@ -1,4 +1,3 @@
-
 function [Omega,S] = identS(X,p,e,tol,verb)
 %identGMrw computes the sparse grafical model using the re-weigthed scheme
 %
@@ -67,6 +66,7 @@ gamma(:,:,1) = symm(gamma(:,:,1));
 thr = 10^-4; 
 
 %% optimize
+mex projectSortC.c
 k=1;
 d=1;
 while d>=tol
